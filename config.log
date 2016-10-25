@@ -816,7 +816,7 @@ configure:6244: $? = 0
 configure:6244: result: yes
 configure:6434: checking for library containing inflateEnd
 configure:6465: gcc -o conftest -g -O2 -pipe -ffast-math -Wall -march=i686 -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-clobbered -Wempty-body -Wno-switch -Wno-missing-field-initializers -Wshadow -fno-strict-aliasing  -DMAXCONN=16384 -I../common -DHAS_TLS -DHAVE_SETRLIMIT -DHAVE_STRNLEN  -I/usr/include  -march=i686 -L/usr/lib conftest.c  >&5
-/tmp/ccjxA449.o: In function `main':
+/tmp/ccdfxh1V.o: In function `main':
 /home/ilfan/server/RoGw/conftest.c:39: undefined reference to `inflateEnd'
 collect2: error: ld returned 1 exit status
 configure:6465: $? = 1
@@ -875,7 +875,7 @@ configure:6540: gcc -o conftest -g -O2 -pipe -ffast-math -Wall -march=i686 -Wno-
 conftest.c:35:6: warning: conflicting types for built-in function 'sqrt'
  char sqrt ();
       ^
-/tmp/ccZKfyUu.o: In function `main':
+/tmp/ccLMQnJC.o: In function `main':
 /home/ilfan/server/RoGw/conftest.c:39: undefined reference to `sqrt'
 collect2: error: ld returned 1 exit status
 configure:6540: $? = 1
@@ -940,7 +940,7 @@ configure:6662: $? = 0
 configure:6664: result: yes
 configure:6686: checking for library containing pthread_create
 configure:6717: gcc -o conftest -g -O2 -pipe -ffast-math -Wall -march=i686 -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-clobbered -Wempty-body -Wno-switch -Wno-missing-field-initializers -Wshadow -fno-strict-aliasing  -DMAXCONN=16384 -I../common -DHAS_TLS -DHAVE_SETRLIMIT -DHAVE_STRNLEN  -I/usr/include -DHAVE_MONOTONIC_CLOCK  -march=i686 -L/usr/lib conftest.c -lm -lz  >&5
-/tmp/ccsygcw8.o: In function `main':
+/tmp/ccflTFiw.o: In function `main':
 /home/ilfan/server/RoGw/conftest.c:39: undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
 configure:6717: $? = 1
@@ -1035,7 +1035,7 @@ configure:7207: checking MySQL library (required)
 configure:7210: result: yes (5.5.52)
 configure:7239: checking for library containing pcre_study
 configure:7270: gcc -o conftest -g -O2 -pipe -ffast-math -Wall -march=i686 -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-clobbered -Wempty-body -Wno-switch -Wno-missing-field-initializers -Wshadow -fno-strict-aliasing  -DMAXCONN=16384 -I../common -DHAS_TLS -DHAVE_SETRLIMIT -DHAVE_STRNLEN  -I/usr/include -DHAVE_MONOTONIC_CLOCK  -march=i686 -L/usr/lib conftest.c -lpthread -lm -lz  >&5
-/tmp/ccOeeD8u.o: In function `main':
+/tmp/cc0R9Zmb.o: In function `main':
 /home/ilfan/server/RoGw/conftest.c:39: undefined reference to `pcre_study'
 collect2: error: ld returned 1 exit status
 configure:7270: $? = 1
