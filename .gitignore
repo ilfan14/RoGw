@@ -80,3 +80,6 @@ $RECYCLE.BIN/
 map-server
 char-server
 map-server
+.char-server.pid
+.map-server.pid
+.login-server.pid
